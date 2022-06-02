@@ -7,10 +7,10 @@ export default function Navbar({isOpen}) {
   return (
     <div className="navbar">
       <span className="navbar__logo">
-        <IoIosBeer />
+        <IoIosBeer color="#fff" />
       </span>
       <span className="navbar__logo">
-        <FiMenu onClick={isOpen} />
+        <FiMenu color="#fff" onClick={isOpen} />
       </span>
     </div>
   );

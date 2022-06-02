@@ -1,3 +1,5 @@
+@import '../Variables/Variables.scss';
+
 .homepage {
     display: flex;
     align-items: center;
@@ -12,5 +14,9 @@
         height: 100%;
         width: 100%;
         border-radius: 1rem;
+    }
+
+    .homepage__title {
+        color: $whiteColor;
     }
 }
