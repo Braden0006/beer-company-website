@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["Navbar.scss"],"names":[],"mappings":"AAAA,QACI,aACA,8BACA,mBACA,WACA,gBAEA,sBACI","file":"Navbar.css"}
+{"version":3,"sourceRoot":"","sources":["Navbar.scss","../Variables/Variables.scss"],"names":[],"mappings":"AAEA,QACI,aACA,8BACA,mBACA,WACA,gBAEA,sBACI,UCND","file":"Navbar.css"}

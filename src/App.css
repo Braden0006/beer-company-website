@@ -1,12 +1,13 @@
+html {
+  font-size: 62.5%;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
 .app-container {
   display: flex;
   align-items: center;
