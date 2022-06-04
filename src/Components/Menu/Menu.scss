@@ -24,8 +24,14 @@
         margin-top: 1rem;
     }
 
-    .menu__link {
-        padding-bottom: 1rem;
-        font-size: $m-font
+    .menu__a-tag {
+        text-decoration: none;
+        color: black;
+
+        .menu__link {
+            padding-bottom: 1rem;
+            font-size: $m-font
+        }
     }
+
 }

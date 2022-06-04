@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
 import "./Menu.css";
 
 export default function Menu({ open, isOpen }) {
@@ -28,8 +29,13 @@ export default function Menu({ open, isOpen }) {
           <AiOutlineClose onClick={isOpen} />
         </span>
         <div className="menu">
-          <h2 className="menu__link">Home</h2>
-          <h2 className="menu__link">Contact</h2>
+          <Link class="menu__a-tag" to="/">
+            <h2 className="menu__link">Home</h2>
+          </Link>
+
+          <Link className="menu__a-tag" to="/contact">
+            <h2 className="menu__link">Contact</h2>
+          </Link>
         </div>
       </motion.div>
     </AnimatePresence>
