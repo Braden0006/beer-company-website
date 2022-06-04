@@ -10,6 +10,7 @@
         flex-direction: column;
         justify-content: space-between;
         height: 90vh;
+        width: 80%;
 
         .contact__form {
             display: flex;
@@ -31,8 +32,13 @@
         }
     }
 
-
-    .contact__footer__address, .contact__footer__phone {
-        padding: 0rem 1.5rem 0rem 0rem;
+    .contact__footer {
+        display: flex;
+        justify-content: center;
+        
+        .contact__footer__address, .contact__footer__phone {
+            padding: 0rem 1.5rem 0rem 0rem;
+        }
     }
+
 }

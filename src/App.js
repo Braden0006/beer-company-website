@@ -3,7 +3,6 @@ import Navbar from "./Components/Navbar/Navbar";
 import Homepage from "./Components/Homepage/Homepage";
 import Business from "./Components/Business/Business";
 import Hours from "./Components/Hours/Hours";
-import Menu from "./Components/Menu/Menu";
 import Contact from "./Components/Contact/Contact";
 
 import { Route, Routes } from "react-router-dom";
@@ -26,7 +25,6 @@ function App() {
           <div>
             <div className="app-container">
               <Navbar open={open} isOpen={isOpen} />
-              <Menu open={open} isOpen={isOpen} />
               <Homepage />
               <Business />
               <Hours />

@@ -6,7 +6,7 @@ export default function Business() {
   return (
     <div className='business'>
         <div className="business__image"></div>
-        <h2 className='business__address'>4155 Legion Lane</h2>
+        <br />
         <div className='business__address-image'></div>
     </div>
   )
