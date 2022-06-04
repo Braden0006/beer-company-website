@@ -1,8 +1,10 @@
 @import '../Variables/Variables.scss';
 
 .background {
-    background-color: rgba(245, 213, 161, 0.886);
+    background: rgba(245, 213, 161, 0.886);
     position: fixed;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     display: flex;
@@ -34,4 +36,34 @@
         }
     }
 
+}
+
+// Media Querys
+@media screen and (min-width: 1024px) {
+    .background {
+        background-color: inherit;
+        transform: translateX(0) !important;
+        position: static;
+        top: auto;
+        left: auto;
+        width: auto;
+        display: inline-block;
+
+        .menu__icon {
+            display: none;
+        }
+
+        .menu {
+            display: flex;
+            margin-right: 0;
+
+            .menu__link {
+                color: white;
+            }
+
+            .home {
+                padding-right: 2rem;
+            }
+        }
+    }
 }

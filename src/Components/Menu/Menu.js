@@ -30,7 +30,7 @@ export default function Menu({ open, isOpen }) {
         </span>
         <div className="menu">
           <Link className="menu__a-tag" to="/">
-            <h2 className="menu__link">Home</h2>
+            <h2 className="menu__link home">Home</h2>
           </Link>
 
           <Link className="menu__a-tag" to="/contact">

@@ -1,1 +1,1 @@
-.navbar{display:flex;justify-content:space-between;align-items:center;width:90vw;margin-top:1rem}.navbar .navbar__logo{font-size:3rem}.navbar .hidden{display:none}/*# sourceMappingURL=Navbar.css.map */
+.navbar{display:flex;justify-content:space-between;align-items:center;width:90vw;margin-top:1rem}.navbar .navbar__beer-logo,.navbar .navbar__menu-logo{font-size:3rem}.navbar .hidden{display:none}@media screen and (min-width: 1024px){.navbar__menu-logo{display:none}}/*# sourceMappingURL=Navbar.css.map */

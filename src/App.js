@@ -12,9 +12,9 @@ import "./App.css";
 function App() {
   const [open, setOpen] = useState(false);
 
+  // Function that toggles the open state to true or false
   const isOpen = () => {
     setOpen(!open);
-    console.log("hi");
   };
 
   return (

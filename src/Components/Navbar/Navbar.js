@@ -10,18 +10,18 @@ export default function Navbar({ open, isOpen }) {
   return (
     <>
       <div className="navbar">
-        <span className="navbar__logo">
+        <span className="navbar__beer-logo">
           <IoIosBeer color="#fff" />
         </span>
-        <span className="navbar__logo">
+        <span className="navbar__menu-logo">
           <FiMenu
             className={open ? "hidden" : ""}
             color="#fff"
             onClick={isOpen}
           />
         </span>
+        <Menu open={open} isOpen={isOpen} />
       </div>
-      <Menu open={open} isOpen={isOpen} />
     </>
   );
 }
