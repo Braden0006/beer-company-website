@@ -4,6 +4,9 @@ import Homepage from "./Components/Homepage/Homepage";
 import Business from "./Components/Business/Business";
 import Hours from "./Components/Hours/Hours";
 import Menu from "./Components/Menu/Menu";
+import Contact from "./Components/Contact/Contact";
+
+import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
 
@@ -12,19 +15,28 @@ function App() {
 
   const isOpen = () => {
     setOpen(!open);
-    console.log('hi')
+    console.log("hi");
   };
 
   return (
-    <div>
-      <div className="app-container">
-        <Navbar isOpen={isOpen} />
-        <Menu open={open} isOpen={isOpen} />
-        <Homepage />
-        <Business />
-        <Hours />
-      </div>
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <div>
+            <div className="app-container">
+              <Navbar open={open} isOpen={isOpen} />
+              <Menu open={open} isOpen={isOpen} />
+              <Homepage />
+              <Business />
+              <Hours />
+            </div>
+          </div>
+        }
+      />
+
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   );
 }
 

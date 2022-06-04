@@ -4,13 +4,25 @@ import { motion, AnimatePresence } from "framer-motion";
 import "./Menu.css";
 
 export default function Menu({ open, isOpen }) {
+
+  const variants = {
+    visible: {
+      x: open ? 0 : 1000,
+      transition: {
+        staggerChildren: 0.8,
+        transition: "tween"
+      }
+    }
+  }
+
   return (
     <AnimatePresence>
       <motion.div
         className="background"
         initial={{ x: 1000 }}
-        animate={{ x: open ? 0 : 1000 }}
-        transition={{delay: 0.2}}
+        animate="visible"
+        variants={variants}
+        // transition={{ transition: "tween" }}
       >
         <span className="menu__icon">
           <AiOutlineClose onClick={isOpen} />
