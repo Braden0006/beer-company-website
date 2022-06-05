@@ -11,8 +11,8 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <>
-      <Link to="/">
-        <button className="back-home">Back Home</button>
+      <Link to="/" className="back-home__link">
+        <p className="back-home">Back Home</p>
       </Link>
       <div className="contact">
         <h1 className="contact__title">Contact</h1>
@@ -42,14 +42,16 @@ export default function Contact() {
 
           <div className="contact__footer">
             <span className="contact__footer__address">
-              <FaMapMarkerAlt /> 4155 Legion Lane Casper, WY 82609
+              <FaMapMarkerAlt className="contact__footer__address--logo" /> 4155 Legion Lane Casper, WY 82609
             </span>
             <span className="contact__footer__phone">
-              <BsFillTelephoneFill /> (307)337-1177
+              <BsFillTelephoneFill className="contact__footer__phone--logo" /> (307)337-1177
             </span>
             <p className="contact__footer__line"></p>
             <a
+              className="contact__footer__facebook__link"
               target="_blank"
+              rel="noreferrer"
               href="https://www.facebook.com/pages/category/Brewery/Oil-City-Beer-Company-891799434263884/"
             >
               <AiFillFacebook className="contact__footer__facebook" />

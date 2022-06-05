@@ -8,7 +8,6 @@ import Contact from "./Components/Contact/Contact";
 import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
-import { FaWindowRestore } from "react-icons/fa";
 
 function App() {
   const [open, setOpen] = useState(false);

@@ -1,105 +1,136 @@
-@import '../Variables/Variables.scss';
+@import "../Variables/Variables.scss";
 
-.back-home {
-    margin: 1rem 0rem 0rem 1rem;
+.back-home__link {
+  text-decoration: none;
+
+  .back-home {
+    margin: 0;
+    background: $dark-color;
+    color: $light-white;
+    padding: 1rem 0rem 0rem 1rem;
+    font-size: $xsmall-font;
+  }
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  background: $dark-color;
+  color: $light-white;
+
+  .contact__grid {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 90vw;
-    margin: auto;
+    justify-content: space-between;
+    height: 90vh;
+    width: 80%;
 
-    .contact__grid {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 90vh;
-        width: 80%;
+    .contact__form {
+      display: flex;
+      flex-direction: column;
 
-        .contact__form {
-            display: flex;
-            flex-direction: column;
-    
-            .contact__input {
-                padding: 1rem;
-                margin: 0.6rem;
-            }
-    
-            .contact__submit {
-                width: 30vw;
-                margin: auto;
-                padding: 0.6rem;
-                border-radius: 1rem;
-                border: none;
-                box-shadow: 0rem 0rem 0.2rem 0rem; 
-            }
-        }
+      .contact__input {
+        padding: 1rem;
+        margin: 0.6rem;
+        border-radius: $border-radius;
+        border: none;
+        outline: none;
+      }
+
+      .contact__submit {
+        width: 30vw;
+        margin: auto;
+        padding: 0.6rem;
+        border-radius: $border-radius;
+        border: none;
+        box-shadow: 0rem 0rem 0.2rem 0rem;
+      }
+    }
+  }
+
+  .contact__footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+
+    .contact__footer__address,
+    .contact__footer__phone {
+      padding: 0rem 1.5rem 0rem 0rem;
+
+      .contact__footer__address--logo, .contact__footer__phone--logo {
+          color: $tan;
+      }
     }
 
-    .contact__footer {
-        display: flex;
-        justify-content: center;
-        
-        .contact__footer__address, .contact__footer__phone {
-            padding: 0rem 1.5rem 0rem 0rem;
-        }
-
-        .contact__footer__line {
-            width: 102%;
-            border: 0.01rem solid #000;
-            display: none;
-        }
-
-        .contact__footer__facebook {
-            font-size: $m-font;
-            cursor: pointer;
-            display: none;
-        }
-
-        .contact__footer__facebook:hover {
-            color: grey;
-        }
+    .contact__footer__line {
+      width: 102%;
+      border: 0.01rem solid #fff;
+      display: none;
     }
+
+    .contact__footer__facebook {
+      font-size: $large-font;
+      cursor: pointer;
+      display: none;
+      color: $tan;
+    }
+
+    .contact__footer__facebook:hover {
+      color: grey;
+    }
+  }
 }
 
 // Media Querys
 @media screen and (min-width: 1024px) {
-    .contact {
-        height: 100vh;
-        justify-content: center;
+  .contact {
+    height: 100vh;
+    justify-content: center;
 
-        .contact__grid {
-            flex-direction: row;
-            align-items: center;
-            height: 80vh;
-
-            .contact__form {
-
-                .contact__submit {
-                    margin: 0;
-                    margin-top: 1rem;
-                }
-            }
-        }
-
-        .contact__footer {
-            flex-direction: column;
-            height: 35.5rem;
-            justify-content: flex-start;
-            
-            .contact__footer__address {
-                padding-bottom: 4rem
-            }
-
-            .contact__footer__address, .contact__footer__phone {
-                font-size: 1.2rem
-            }
-
-            .contact__footer__line, .contact__footer__facebook {
-                display: inline-block;
-            }
-        }
+    .contact__title {
+        font-size: $large-font;
     }
+
+    .contact__grid {
+      flex-direction: row;
+      align-items: center;
+      height: 80vh;
+
+      .contact__form {
+        width: 45%;
+
+        .contact__input {
+          margin: 1rem;
+        }
+
+        .contact__submit {
+          width: 80%;
+          margin: auto;
+        }
+      }
+    }
+
+    .contact__footer {
+      flex-direction: column;
+      height: 35.5rem;
+      justify-content: flex-start;
+
+      .contact__footer__address {
+        padding-bottom: 4rem;
+      }
+
+      .contact__footer__address,
+      .contact__footer__phone {
+        font-size: 1.4rem;
+      }
+
+      .contact__footer__line,
+      .contact__footer__facebook {
+        display: inline-block;
+      }
+    }
+  }
 }

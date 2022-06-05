@@ -1,15 +1,23 @@
-$s-font: 1.6rem;
-$m-font: 2rem;
-$lg-font: 2.2rem;
+// Font Sizes
+$xsmall-font: 1.4rem;
+$small-font: 1.6rem;
+$medium-font: 2rem;
+$large-font: 2.2rem;
 
+// Icon Size
 $icon: 3rem;
 
+// Colors
 $whiteColor: #fff;
-
-// color pallets
-
-$dark-color: #38383B;
+$dark-color: rgb(25, 25, 25);
 $light-grey: #868684;
 $light-tan: #BEC2AB;
 $lighter-grey: #84898D;
 $light-white: #F9FAFA;
+$tan: #D2B48C;
+$lighter-tan: #d2b48ce5;
+$light-brown: #7c6c5eeb;
+$light-red: #A34358;
+
+// Border Radius
+$border-radius: 1rem;
