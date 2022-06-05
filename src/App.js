@@ -8,6 +8,7 @@ import Contact from "./Components/Contact/Contact";
 import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
+import { FaWindowRestore } from "react-icons/fa";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -34,6 +35,10 @@ function App() {
       />
 
       <Route path="/contact" element={<Contact />} />
+      {/* <Route path="/facebook" element={() => {
+        window.location.href = 'https://www.facebook.com/pages/category/Brewery/Oil-City-Beer-Company-891799434263884/';
+        return null
+      }} /> */}
     </Routes>
   );
 }

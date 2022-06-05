@@ -1,0 +1,18 @@
+@import './Components/Variables/Variables.scss';
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: $dark-color;
+}

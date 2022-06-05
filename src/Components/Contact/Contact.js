@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { AiFillFacebook } from "react-icons/ai";
 
 import "./Contact.css";
 
@@ -46,6 +47,13 @@ export default function Contact() {
             <span className="contact__footer__phone">
               <BsFillTelephoneFill /> (307)337-1177
             </span>
+            <p className="contact__footer__line"></p>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/pages/category/Brewery/Oil-City-Beer-Company-891799434263884/"
+            >
+              <AiFillFacebook className="contact__footer__facebook" />
+            </a>
           </div>
         </div>
       </div>
