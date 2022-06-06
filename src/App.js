@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Homepage from "./Components/Homepage/Homepage";
 import Business from "./Components/Business/Business";
 import Contact from "./Components/Contact/Contact";
+import Hours from "./Components/Hours/Hours";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -32,10 +33,7 @@ function App() {
       />
 
       <Route path="/contact" element={<Contact />} />
-      {/* <Route path="/facebook" element={() => {
-        window.location.href = 'https://www.facebook.com/pages/category/Brewery/Oil-City-Beer-Company-891799434263884/';
-        return null
-      }} /> */}
+      <Route path="/hours" element={<Hours />} />
     </Routes>
   );
 }
