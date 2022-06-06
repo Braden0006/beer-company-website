@@ -1,0 +1,35 @@
+@import '../Variables/Variables.scss';
+
+.food-truck {
+    height: 100vh;
+    width: 90vw;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+    .food-truck__info {
+        margin-bottom: 3rem;
+
+        .food-truck__info__title {
+            font-size: $xxxlarge-font;
+            color: $tan;
+            margin-bottom: 0;
+        }
+
+        .food-truck__info__description {
+            font-size: $xsmall-font;
+            color: white;
+            line-height: 2.2rem;
+        }
+    }
+
+
+    .food-truck__image {
+        background: url('/src/Images/food-truck.jpg') center;
+        background-size: cover;
+        height: 65%;
+        width: 100%;
+        border-radius: 1rem;
+    }
+}
