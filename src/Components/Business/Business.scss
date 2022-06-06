@@ -1,23 +1,30 @@
 @import '../Variables/Variables.scss';
 
 .business {
-    height: 50vh;
+    height: 80vh;
     width: 90vw;
     padding-top: 4rem;
     flex-direction: column;
     display: flex;
     align-items: center;
 
-    .business__image {
-        background: url('/src/Images/inside-brewery.jpg') center;
-        background-size: cover;
-        height: 100%;
-        width: 100%;
-        border-radius: 1rem;
+    .business__info {
+        margin-bottom: 3rem;
+
+        .business__info__title {
+            font-size: $xxxlarge-font;
+            color: $tan;
+        }
+
+        .business__info__description {
+            font-size: $xsmall-font;
+            color: white;
+        }
     }
 
-    .business__address-image {
-        background: url('/src/Images/company-address.png') center;
+
+    .business__image {
+        background: url('/src/Images/inside-brewery.jpg') center;
         background-size: cover;
         height: 100%;
         width: 100%;
