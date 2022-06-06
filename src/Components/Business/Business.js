@@ -12,14 +12,6 @@ export default function Business() {
           that's been brought here
         </p>
       </div>
-
-      {/* <div className="business__concert__image"></div>
-      <div className="business__concert__info">
-        <h2 className="business__concert__info__title">Live Bands</h2>
-        <p className="business__concert__info__description">Get a chance to listen to amazing musicians play in our brewery!</p>
-      </div>
-
-      <div className="business__food__image"></div> */}
     </div>
   );
 }

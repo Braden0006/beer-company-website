@@ -1,24 +1,23 @@
 @import '../Variables/Variables.scss';
 
-.business {
+.band {
     height: 100vh;
     width: 90vw;
     justify-content: center;
     flex-direction: column;
-    padding-top: 3rem;
     display: flex;
     align-items: center;
 
-    .business__info {
+    .band__info {
         margin-bottom: 3rem;
 
-        .business__info__title {
+        .band__info__title {
             font-size: $xxxlarge-font;
             color: $tan;
             margin-bottom: 0;
         }
 
-        .business__info__description {
+        .band__info__description {
             font-size: $xsmall-font;
             color: white;
             line-height: 2.2rem;
@@ -26,13 +25,11 @@
     }
 
 
-    .business__image {
-        background: url('/src/Images/inside-brewery.jpg') center;
+    .band__image {
+        background: url('/src/Images/concert.jpg');
         background-size: cover;
         height: 65%;
         width: 100%;
         border-radius: 1rem;
     }
 }
-
-// Media Querys 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Homepage from "./Components/Homepage/Homepage";
 import Business from "./Components/Business/Business";
+import Band from "./Components/Band/Band";
 import Contact from "./Components/Contact/Contact";
 import Hours from "./Components/Hours/Hours";
 
@@ -27,6 +28,7 @@ function App() {
               <Navbar open={open} isOpen={isOpen} />
               <Homepage />
               <Business />
+              <Band />
             </div>
           </div>
         }
