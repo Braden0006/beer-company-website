@@ -33,3 +33,18 @@
         border-radius: 1rem;
     }
 }
+
+// Media Querys
+@media screen and (min-width: 768px) {
+    .band {
+        flex-direction: row-reverse;
+
+        .band__info {
+            margin: 0rem 4rem 0rem 0rem;
+        }
+
+        .band__image {
+            width: 50vw;
+        }
+    }
+}
