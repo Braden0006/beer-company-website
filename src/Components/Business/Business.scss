@@ -36,3 +36,21 @@
 }
 
 // Media Querys 
+@media screen and (min-width: 768px) {
+    .business {
+        flex-direction: row;
+
+        .business__info {
+            margin: 0rem 0rem 0rem 2rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .business {
+
+        .business__image {
+            width: 50vw;
+        }
+    }
+}
