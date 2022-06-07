@@ -33,3 +33,37 @@
         border-radius: 1rem;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .food-truck {
+        flex-direction: row;
+
+        .food-truck__info {
+            margin: 0rem 0rem 0rem 2rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .food-truck {
+
+        .food-truck__image {
+            width: 50vw;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .food-truck {
+
+        .food-truck__info {
+            .food-truck__info__title {
+                font-size: $largest-font;
+            }
+
+            .food-truck__info__description {
+                font-size: $small-med-font;
+            }
+        }
+    }
+}

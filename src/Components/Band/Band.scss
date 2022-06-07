@@ -48,3 +48,18 @@
         }
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .band {
+
+        .band__info {
+            .band__info__title {
+                font-size: $largest-font;
+            }
+
+            .band__info__description {
+                font-size: $small-med-font;
+            }
+        }
+    }
+}
