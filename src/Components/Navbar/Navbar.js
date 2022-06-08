@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "../Menu/Menu";
+import { Link } from "react-router-dom";
 
 import { IoIosBeer } from "react-icons/io";
 import { FiMenu } from "react-icons/fi";
@@ -10,9 +11,9 @@ export default function Navbar({ open, isOpen }) {
   return (
     <>
       <div className="navbar">
-        <span className="navbar__beer-logo">
+        <Link className="navbar__beer-logo" to="/">
           <IoIosBeer color="#fff" />
-        </span>
+        </Link>
         <span className="navbar__menu-logo">
           <FiMenu
             className={open ? "hidden" : ""}

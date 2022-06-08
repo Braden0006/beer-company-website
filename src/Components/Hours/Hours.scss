@@ -1,40 +1,66 @@
 @import '../Variables/Variables.scss';
 
-.hours {
-    height: 50vh;
-    width: 90vw;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+.hours--background {
+    height: 100vh;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    background: #191919;
+    flex-direction: column;
 
-    .hours__title {
-        width: 10rem;
-        height: 3rem;
-        justify-content: center;
-        background: $tan;
-        display: flex;
-        align-items: center;
-        border-radius: 1rem;
-        color: $dark-color;
+    .hours__button--container {
+        width: 100%;
+
+        .hours__button {
+            margin: 1rem 0rem 0rem 1rem;
+            background: $dark-color;
+            color: $light-white;
+            font-size: $xsmall-font;
+            font-family: $mont-font;
+            outline: none;
+            border: none;
+        }
     }
 
-    .hours__grid {
-        width: 70%;
-        display: grid;
-        height: 85%;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(7, 1fr);
+    .hours {
+        height: 60vh;
+        width: 90vw;
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-items: center;
-        box-shadow: 0rem 0rem 2rem -1rem;
-        background: $tan;
-        font-size: $xsmall-font;
-        color: $dark-color;
-        border-radius: 1rem;
+    
+        .hours__title {
+            width: 10rem;
+            height: 3rem;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            border-radius: 1rem;
+            color: $light-white;
+            font-size: $xxxxlarge-font;
+            font-family: $mont-font;
+        }
+    
+        .hours__grid {
+            width: 70%;
+            display: grid;
+            height: 85%;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(7, 1fr);
+            align-items: center;
+            justify-items: center;
+            box-shadow: 0rem 0rem 2rem -1rem;
+            background: $dark-color;
+            font-size: $xsmall-font;
+            color: $light-white;
+            border-radius: 1rem;
+            font-family: $jose-font;
+            border: 1px solid $light-white;
+        }
     }
 }
+
 
 // Media Querys
 @media screen and (min-width: 1024px) {
