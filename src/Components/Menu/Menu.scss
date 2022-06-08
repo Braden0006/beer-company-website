@@ -35,6 +35,10 @@
       font-size: $medium-font;
       font-family: $mont-font;
     }
+
+    .menu__link:hover {
+      color: $tan;
+    }
   }
 }
 
