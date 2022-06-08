@@ -16,12 +16,14 @@
             font-size: $xxxlarge-font;
             color: $tan;
             margin-bottom: 0;
+            font-family: $mont-font;
         }
 
         .business__info__description {
             font-size: $xsmall-font;
             color: white;
             line-height: 2.2rem;
+            font-family: $dosis-font;
         }
     }
 
@@ -63,7 +65,7 @@
             }
 
             .business__info__description {
-                font-size: $small-med-font;
+                font-size: $medium-font;
             }
         }
     }

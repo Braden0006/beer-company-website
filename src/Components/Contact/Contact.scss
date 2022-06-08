@@ -9,6 +9,7 @@
     color: $light-white;
     padding: 1rem 0rem 0rem 1rem;
     font-size: $xsmall-font;
+    font-family: $mont-font;
   }
 }
 
@@ -20,6 +21,11 @@
   height: 100vh;
   background: $dark-color;
   color: $light-white;
+
+  .contact__title {
+    font-family: $mont-font;
+    font-size: $xxxxlarge-font;
+  }
 
   .contact__grid {
     display: flex;
@@ -38,6 +44,7 @@
         border-radius: $border-radius;
         border: none;
         outline: none;
+        font-family: sans-serif;
       }
 
       .contact__submit {
@@ -47,6 +54,7 @@
         border-radius: $border-radius;
         border: none;
         box-shadow: 0rem 0rem 0.2rem 0rem;
+        font-family: sans-serif;
       }
     }
   }
@@ -59,6 +67,7 @@
     .contact__footer__address,
     .contact__footer__phone {
       padding: 0rem 1.5rem 0rem 0rem;
+      font-family: $mont-font;
 
       .contact__footer__address--logo, .contact__footer__phone--logo {
           color: $tan;
@@ -89,10 +98,6 @@
   .contact {
     height: 100vh;
     justify-content: center;
-
-    .contact__title {
-        font-size: $large-font;
-    }
 
     .contact__grid {
       flex-direction: row;

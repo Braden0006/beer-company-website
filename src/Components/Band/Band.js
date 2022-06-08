@@ -1,5 +1,5 @@
 import React from "react";
-import './Band.css'
+import "./Band.css";
 
 export default function Band() {
   return (

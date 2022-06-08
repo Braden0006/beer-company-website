@@ -1,5 +1,6 @@
 import React from "react";
-import './FoodTruck.css'
+
+import "./FoodTruck.css";
 
 export default function FoodTruck() {
   return (
@@ -8,7 +9,8 @@ export default function FoodTruck() {
       <div className="food-truck__info">
         <h2 className="food-truck__info__title">Food Truck</h2>
         <p className="food-truck__info__description">
-          Sit down, drink some great beer, and eat delicous food served from our food truck!
+          Sit down, drink some great beer, and eat delicous food served from our
+          food truck!
         </p>
       </div>
     </div>
