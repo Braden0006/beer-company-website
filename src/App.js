@@ -27,7 +27,7 @@ function App() {
           <div>
             <div className="app-container">
               <Navbar open={open} isOpen={isOpen} />
-              <Homepage />
+              <Homepage open={open} />
               <Business />
               <Band />
               <FoodTruck />

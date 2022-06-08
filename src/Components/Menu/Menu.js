@@ -23,7 +23,6 @@ export default function Menu({ open, isOpen }) {
         initial={{ x: 1000 }}
         animate="visible"
         variants={variants}
-        // transition={{ transition: "tween" }}
       >
         <span className="menu__icon">
           <AiOutlineClose onClick={isOpen} />

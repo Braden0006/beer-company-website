@@ -1,5 +1,9 @@
 @import './Components/Variables/Variables.scss';
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   font-size: 62.5%;
 }
