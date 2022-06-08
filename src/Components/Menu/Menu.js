@@ -28,11 +28,11 @@ export default function Menu({ open, isOpen }) {
           <AiOutlineClose onClick={isOpen} />
         </span>
         <div className="menu">
-          <Link className="menu__a-tag" to="/hours">
+          <Link className="menu__a-tag" to="/hours" onClick={isOpen}>
             <h2 className="menu__link home">Hours</h2>
           </Link>
 
-          <Link className="menu__a-tag" to="/contact">
+          <Link className="menu__a-tag" to="/contact" onClick={isOpen}>
             <h2 className="menu__link">Contact</h2>
           </Link>
         </div>
