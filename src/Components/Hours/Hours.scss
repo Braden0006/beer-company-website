@@ -19,6 +19,7 @@
             font-family: $mont-font;
             outline: none;
             border: none;
+            cursor: pointer;
         }
     }
 
@@ -56,17 +57,21 @@
             color: $light-white;
             border-radius: 1rem;
             font-family: $jose-font;
-            border: 1px solid $light-white;
+            border: 1px solid $tan;
         }
     }
 }
 
-
 // Media Querys
 @media screen and (min-width: 1024px) {
-    .hours {
-        .hours__grid {
-            width: 60%;
+    .hours--background {
+
+        .hours {
+            .hours__grid {
+                width: 60%;
+                font-size: $small-med-font;
+            }
         }
     }
+
 }
