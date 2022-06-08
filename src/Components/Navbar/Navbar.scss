@@ -4,8 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90vw;
-    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem 2rem 0rem 2rem;
+    background: rgb(25 25 25 / 87%);
+    position: fixed;
 
     .navbar__beer-logo, .navbar__menu-logo {
         font-size: $icon;
