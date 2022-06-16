@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/beer-company-website/static/css/main.7df3af0b.css",
+    "main.css": "/beer-company-website/static/css/main.ee2a01ee.css",
     "main.js": "/beer-company-website/static/js/main.9bb2d5e4.js",
     "static/media/inside-brewery.jpg": "/beer-company-website/static/media/inside-brewery.4cada376c7a475d64af6.jpg",
     "static/media/food-truck.jpg": "/beer-company-website/static/media/food-truck.65482a32a6631aacd412.jpg",
     "static/media/concert.jpg": "/beer-company-website/static/media/concert.e56552798f7676b8198a.jpg",
     "static/media/holding-beer-large.jpg": "/beer-company-website/static/media/holding-beer-large.2724328d41161697fee3.jpg",
     "index.html": "/beer-company-website/index.html",
-    "main.7df3af0b.css.map": "/beer-company-website/static/css/main.7df3af0b.css.map",
+    "main.ee2a01ee.css.map": "/beer-company-website/static/css/main.ee2a01ee.css.map",
     "main.9bb2d5e4.js.map": "/beer-company-website/static/js/main.9bb2d5e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7df3af0b.css",
+    "static/css/main.ee2a01ee.css",
     "static/js/main.9bb2d5e4.js"
   ]
 }
